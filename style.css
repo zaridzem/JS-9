@@ -19,7 +19,16 @@ img {
 .fa-circle-arrow-left {
   left: 30px;
 }
-
+.title {
+  position: absolute;
+  width: 100%;
+  color: black;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  text-align: center;
+}
 .dotsparent {
   display: flex;
   left: 50%;

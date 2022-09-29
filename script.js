@@ -52,6 +52,7 @@ function createimgtagslider(item) {
 // create title tag
 function createh2tagslider(item) {
   let tagtitle = document.createElement("h2");
+  tagtitle.classList.add("title");
   tagtitle.innerText = item.title;
   return tagtitle;
 }
