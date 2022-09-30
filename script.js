@@ -1,25 +1,25 @@
 let data = [
   {
     id: 1,
-    imageurl: "/images/slick1.png",
+    imageurl: "./images/slick1.png",
     title: "Slide 1",
     url: "",
   },
   {
     id: 2,
-    imageurl: "/images/slick2.jpg",
+    imageurl: "./images/slick2.jpg",
     title: "Slide 2",
     url: "",
   },
   {
     id: 3,
-    imageurl: "/images/slick3.jpg",
+    imageurl: "./images/slick3.jpg",
     title: "Slide 3",
     url: "",
   },
   {
     id: 4,
-    imageurl: "/images/slick4.jpg",
+    imageurl: "./images/slick4.jpg",
     title: "Slide 4",
     url: "",
   },
@@ -45,7 +45,7 @@ function createimgtagslider(item) {
   const tagimage = document.createElement("div");
   tagimage.style.backgroundImage = `url('${item.imageurl}')`;
   tagimage.classList.add("slide-bg");
-  tagimage.setAttribute("src", item.imageurl);
+  // tagimage.setAttribute("src", item.imageurl);
   tagimage.setAttribute("alt", item.title);
   return tagimage;
 }
